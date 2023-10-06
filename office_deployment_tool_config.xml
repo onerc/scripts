@@ -1,0 +1,18 @@
+# should only download word, excel and powerpoint and be compatible with all versions (?)
+
+<Configuration>
+<Add SourcePath="C:\test" OfficeClientEdition="64" >
+<Product ID="O365ProPlusRetail">
+<Language ID="en-us" />
+<ExcludeApp ID="Access" />
+<ExcludeApp ID="Bing" />
+<ExcludeApp ID="Groove" />
+<ExcludeApp ID="Lync" />
+<ExcludeApp ID="OneDrive" />
+<ExcludeApp ID="OneNote" />
+<ExcludeApp ID="Outlook" />
+<ExcludeApp ID="Publisher" />
+<ExcludeApp ID="Teams" />
+</Product>
+</Add>
+</Configuration>
