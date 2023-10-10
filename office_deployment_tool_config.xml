@@ -7,12 +7,16 @@
 <ExcludeApp ID="Access" />
 <ExcludeApp ID="Bing" />
 <ExcludeApp ID="Groove" />
+<ExcludeApp ID="InfoPath" />
 <ExcludeApp ID="Lync" />
 <ExcludeApp ID="OneDrive" />
 <ExcludeApp ID="OneNote" />
 <ExcludeApp ID="Outlook" />
+<ExcludeApp ID="Project" />
 <ExcludeApp ID="Publisher" />
+<ExcludeApp ID="SharePointDesigner" />
 <ExcludeApp ID="Teams" />
+<ExcludeApp ID="Visio" />
 </Product>
 </Add>
 </Configuration>
