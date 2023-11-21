@@ -7,6 +7,7 @@ AND title REGEXP '1080'
 AND title NOT REGEXP '3D'
 ORDER BY size DESC;
 
-
---you'll probably need this as well
---magnet:?xt=urn:btih:
+/*
+you'll probably need this as well
+magnet:?xt=urn:btih:
+*/
