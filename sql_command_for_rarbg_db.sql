@@ -9,4 +9,4 @@ ORDER BY size DESC;
 
 
 --you'll probably need this as well
-magnet:?xt=urn:btih:
+--magnet:?xt=urn:btih:
