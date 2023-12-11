@@ -7,7 +7,7 @@ for i in $(echo $sublist | jq .id); do
         elif [[ ! -z $sdhsubs ]]; then
                 filename="$1-EXTRACTED-SDH-SUBS-id-$i.srt"
         else
-                filename="$1-EXTRACTED-HOPEFULLY-REGULAR-SUBS-id-$i.srt"
+                filename="$1-EXTRACTED-HOPEFULLY-REGULAR-SUBS-id-$i.srt" # if the subs arent tagged properly, those can also get named as regular subs
         fi
         mkvextract tracks "$1" $i:"$filename"
 done
