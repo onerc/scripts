@@ -1,6 +1,6 @@
 sublist=$(mkvmerge -J "$1" | jq '.tracks[] | select(.codec=="SubRip/SRT" and .properties.language=="eng" and (.properties.track_name==null or (.properties.track_name | ascii_downcase | contains("comment") | not)))')
 for i in $(echo $sublist | jq .id); do
-        forcedsub=$(mkvmerge -J "$1" | jq --argjson loopi $i '.tracks[] | select(.id==$loopi) | select(.properties.forced_track != null) | select(.properties.forced_track==true)')
+        forcedsub=$(mkvmerge -J "$1" | jq --argjson loopi $i '.tracks[] | select(.id==$loopi) | select(.properties.forced_track==true or (select(.properties.track_name != null) | .properties.track_name | ascii_downcase | contains("forced")))')
         sdhsub=$(mkvmerge -J "$1" | jq --argjson loopi $i '.tracks[] | select(.id==$loopi) | select(.properties.track_name != null) | select(.properties.track_name | ascii_downcase | contains("sdh"))')
         if [[ ! -z $forcedsub ]]; then
                 filename="$1-EXTRACTED-FORCED-SUB-id-$i.srt"
