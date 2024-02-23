@@ -1,7 +1,7 @@
 # should only download word, excel and powerpoint and be compatible with all versions (?)
 
 <Configuration>
-<Add SourcePath="C:\test" OfficeClientEdition="64" >
+<Add SourcePath="C:\OfficeStuff" OfficeClientEdition="64" >
 <Product ID="O365ProPlusRetail">
 <Language ID="en-us" />
 <ExcludeApp ID="Access" />
@@ -20,3 +20,7 @@
 </Product>
 </Add>
 </Configuration>
+
+
+.\setup.exe /download configuration.xml
+.\setup.exe /configure configuration.xml
