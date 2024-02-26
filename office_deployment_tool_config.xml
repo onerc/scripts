@@ -1,4 +1,4 @@
-# should only download word, excel and powerpoint and be compatible with all versions (?)
+# should only download word, excel and powerpoint
 
 <Configuration>
 <Add SourcePath="C:\OfficeStuff" OfficeClientEdition="64" >
