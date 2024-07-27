@@ -1,0 +1,239 @@
+[
+    {
+        "no": 1,
+        "nice_name": "Live captions",
+        "process_name": "livecaptions"
+    },
+    {
+        "no": 2,
+        "nice_name": "Magnifier",
+        "process_name": "magnify"
+    },
+    {
+        "no": 3,
+        "nice_name": "Narrator",
+        "process_name": "narrator"
+    },
+    {
+        "no": 4,
+        "nice_name": "On-Screen Keyboard",
+        "process_name": "osk"
+    },
+    {
+        "no": 5,
+        "nice_name": "Voice access",
+        "process_name": "voiceaccess"
+    },
+    {
+        "no": 6,
+        "nice_name": "Windows Speech Recognition",
+        "process_name": "speechuxwiz"
+    },
+    {
+        "no": 7,
+        "nice_name": "Calculator",
+        "process_name": "calculatorapp"
+    },
+    {
+        "no": 8,
+        "nice_name": "Calendar",
+        "process_name": "olk",
+        "comment": "for some reason this opens outlook"
+    },
+    {
+        "no": 9,
+        "nice_name": "Camera",
+        "process_name": "windowscamera"
+    },
+    {
+        "no": 10,
+        "nice_name": "Clock",
+        "process_name": "time"
+    },
+    {
+        "no": 11,
+        "nice_name": "Copilot",
+        "process_name": "pwahelper"
+    },
+    {
+        "no": 12,
+        "nice_name": "Cortana",
+        "process_name": "cortana"
+    },
+    {
+        "no": 13,
+        "nice_name": "Family",
+        "process_name": "familyhub"
+    },
+    {
+        "no": 14,
+        "nice_name": "Feedback Hub",
+        "process_name": "pilotshubapp"
+    },
+    {
+        "no": 15,
+        "nice_name": "File Explorer",
+        "process_name": "n/a"
+    },
+    {
+        "no": 16,
+        "nice_name": "Game Bar",
+        "process_name": "n/a"
+    },
+    {
+        "no": 17,
+        "nice_name": "Get Help",
+        "process_name": "gethelp"
+    },
+    {
+        "no": 18,
+        "nice_name": "Get Started",
+        "process_name": "webexperiencehostapp"
+    },
+    {
+        "no": 19,
+        "nice_name": "Mail",
+        "process_name": "olk",
+        "comment": "for some reason this also opens outlook"
+    },
+    {
+        "no": 20,
+        "nice_name": "Maps",
+        "process_name": "maps"
+    },
+    {
+        "no": 21,
+        "nice_name": "Media Player",
+        "process_name": "microsoft.media.player"
+    },
+    {
+        "no": 22,
+        "nice_name": "Microsoft 365 (Office)",
+        "process_name": "webviewhost"
+    },
+    {
+        "no": 23,
+        "nice_name": "Microsoft Clipchamp",
+        "process_name": "clipchamp"
+    },
+    {
+        "no": 24,
+        "nice_name": "Microsoft Edge",
+        "process_name": "msedge"
+    },
+    {
+        "no": 25,
+        "nice_name": "Microsoft Store",
+        "process_name": "winstore.app"
+    },
+    {
+        "no": 26,
+        "nice_name": "Microsoft To Do",
+        "process_name": "todo"
+    },
+    {
+        "no": 27,
+        "nice_name": "Movies & TV",
+        "process_name": "video.ui"
+    },
+    {
+        "no": 28,
+        "nice_name": "News",
+        "process_name": "microsoft.msn.news"
+    },
+    {
+        "no": 29,
+        "nice_name": "Notepad",
+        "process_name": "notepad"
+    },
+    {
+        "no": 30,
+        "nice_name": "OneDrive",
+        "process_name": "onedrive"
+    },
+    {
+        "no": 31,
+        "nice_name": "Outlook (new)",
+        "process_name": "olk"
+    },
+    {
+        "no": 32,
+        "nice_name": "Paint",
+        "process_name": "mspaint"
+    },
+    {
+        "no": 33,
+        "nice_name": "Phone Link",
+        "process_name": "phoneexperiencehost"
+    },
+    {
+        "no": 34,
+        "nice_name": "Photos",
+        "process_name": "photos"
+    },
+    {
+        "no": 35,
+        "nice_name": "Quick Assist",
+        "process_name": "quickassist"
+    },
+    {
+        "no": 36,
+        "nice_name": "Settings",
+        "process_name": "systemsettings"
+    },
+    {
+        "no": 37,
+        "nice_name": "Snipping Tool",
+        "process_name": "snippingtool"
+    },
+    {
+        "no": 38,
+        "nice_name": "Solitaire & Casual Games",
+        "process_name": "solitaire"
+    },
+    {
+        "no": 39,
+        "nice_name": "Sound Recorder",
+        "process_name": "voicerecorder"
+    },
+    {
+        "no": 40,
+        "nice_name": "Sticky Notes",
+        "process_name": "microsoft.notes"
+    },
+    {
+        "no": 41,
+        "nice_name": "Terminal",
+        "process_name": "openconsole"
+    },
+    {
+        "no": 42,
+        "nice_name": "Tips",
+        "process_name": "whatsnew.store"
+    },
+    {
+        "no": 43,
+        "nice_name": "Weather",
+        "process_name": "microsoft.msn.weather"
+    },
+    {
+        "no": 44,
+        "nice_name": "Windows Backup",
+        "process_name": "windowsbackupclient"
+    },
+    {
+        "no": 45,
+        "nice_name": "Windows Security",
+        "process_name": "sechealthui"
+    },
+    {
+        "no": 46,
+        "nice_name": "Windows Tools",
+        "process_name": "n/a"
+    },
+    {
+        "no": 47,
+        "nice_name": "Xbox",
+        "process_name": "xboxpcapp"
+    }
+]
