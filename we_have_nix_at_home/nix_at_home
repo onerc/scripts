@@ -1,0 +1,4 @@
+- install tailscale
+https://tailscale.com/kb/1476/install-ubuntu-2404
+- run as exit node
+https://tailscale.com/kb/1103/exit-nodes?tab=linux#advertise-a-device-as-an-exit-node
