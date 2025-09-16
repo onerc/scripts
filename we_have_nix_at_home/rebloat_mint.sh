@@ -1,7 +1,8 @@
-sudo apt install fish \
-                 kdeconnect \
-                 micro \
-                 neofetch \
-                 qbittorrent \
-                 syncthing \ 
-                 vlc \
+sudo apt install \
+fish \
+kdeconnect \
+micro \
+neofetch \
+qbittorrent \
+syncthing \
+vlc
