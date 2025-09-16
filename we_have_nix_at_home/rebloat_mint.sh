@@ -5,5 +5,6 @@ kdeconnect \
 micro \
 neofetch \
 qbittorrent \
+screen \
 syncthing \
 vlc
