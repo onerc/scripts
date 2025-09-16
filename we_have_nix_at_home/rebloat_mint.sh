@@ -1,4 +1,5 @@
 sudo apt install \
+btop \
 fish \
 kdeconnect \
 micro \
