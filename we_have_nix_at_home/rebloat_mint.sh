@@ -9,4 +9,5 @@ qbittorrent \
 screen \
 syncthing \
 tailscale \
+tree \
 vlc
